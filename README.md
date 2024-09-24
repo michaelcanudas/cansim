@@ -1,6 +1,6 @@
 # cansim
 
-cansim is a cli application developed for easy simulation and testing of nodes on a CAN bus network.
+cansim is a cli application developed for easy simulation and testing of nodes on a can bus network.
 
 ## features
 
