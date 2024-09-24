@@ -1,11 +1,11 @@
-from cli import list, utils
-from sim import stream
+from ui import components, utils
 
 
-def command():
+def display():
     utils.clear()
-    
-    commands = list.ListDisplay("commands", [
+
+    components.put_head("commands")
+    components.put_text("\n".join([
         "receive",
         "  bytes: display bytes receieved",
         "  message: display bytes when message received", "",
@@ -13,7 +13,6 @@ def command():
         "  bytes: send a stream of bytes",
         "  message: send a message", "",
         "help: displays this menu"
-    ])
-
-    list.render(commands)
-    input()
+    ]))
+    
+    utils.wait()
