@@ -38,7 +38,7 @@ you can navigate through the menus before selecting a simulation option.
 
 cansim was developed for the [yale bdr](https://bulldogsracing.com) team.
 
-## License
+## license
 
 we are using an [mit](https://en.wikipedia.org/wiki/MIT_License) license :)
 
